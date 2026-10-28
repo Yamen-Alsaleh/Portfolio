@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamen - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Yamen.dev</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="avatar-container">
+                <img src="assets/casual.jpg" alt="Yamen" id="avatar-img" class="profile-photo smooth-transition">
+                <br>
+                <button id="switch-avatar-btn">Switch to Professional</button>
+            </div>
+            
+            <h1>Hi, I'm Yamen</h1>
+            <p>I am a software engineering, student at 42Irbid. I build high-performance systems and full-stack applications, transitioning seamlessly from C memory management to Python architectures and custom developer tooling.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">C / C++</div>
+                <div class="skill-card">Python (pydantic, uv)</div>
+                <div class="skill-card">JavaScript & DOM</div>
+                <div class="skill-card">HTML5 & CSS3</div>
+                <div class="skill-card">Linux & Docker</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Project Showcase</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>A-Maze-ing</h3>
+                    <p>A Python maze generator and MiniLibX pixel visualizer with custom configuration parsing.</p>
+                </div>
+                <div class="project-card">
+                    <h3>RAG System</h3>
+                    <p>Retrieval-Augmented Generation system using AST parsing, vLLM, and Qwen models.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Web Piscine (Projects 00-03)</h3>
+                    <p>Responsive layouts, Flexbox mechanics, CSS geometry, and event-driven JS applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p>When I have some time to spare I enjoy playing various video games and watch some series or movies even anime.Also, I enjoy reading pretty much as I have read many novels.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yamen. Built from scratch.</p>
+    </footer>
+</body>
+</html>
